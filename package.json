@@ -1,0 +1,12 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jsliz/first-react.git",
+  "author": "Jarek <jarek@builderdesigns.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
