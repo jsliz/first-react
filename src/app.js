@@ -1,7 +1,18 @@
-console.log('it is on :) ');
+console.log('App.js is running!');
 
-var template = <h1>Here is my first react!</h1>;
 
-var myApp = document.getElementById('app');
+var myApp = {
+  title: 'My first react app',
+  subtitle: 'In this section I will put more details soon'
+}
 
-ReactDOM.render(template,myApp);
+
+// JSX - JavaScript XML
+var template =
+  <div>
+    <h1>{myApp.title.toUpperCase()}</h1>
+    <p>{myApp.subtitle}</p>
+  </div>;
+var appRoot = document.getElementById('app');
+
+ReactDOM.render(template, appRoot);
